@@ -1,0 +1,58 @@
+* {
+    font-family: "Comfortaa", sans-serif;
+    text-decoration: none;
+}
+
+
+
+
+#parte-de-cima-do-header {
+    display: flex;
+    width: 1200px;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+}
+
+
+#logo {
+    font-weight: bold;
+    font-size: 18px;
+    font-family: "Comfortaa", sans-serif;
+    color: #000;
+    text-decoration: none;
+
+}
+
+#logo span {
+    color: #DA8300;
+}
+
+#parte-de-cima-do-header ul {
+    display: flex;
+    align-items: center;
+}
+
+
+#parte-de-cima-do-header ul li {
+    list-style: none;
+    padding: 0 15px;
+
+}
+
+#parte-de-cima-do-header ul li a {
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    display: block;
+
+}
+
+#parter-de-cima-do-header ul li a#link-especifico {
+    background: #03a300;
+    color: #ffff;
+    padding: 9px 20px;
+    border-radius: 10px;
+
+
+}
