@@ -1,3 +1,16 @@
+body,
+html,
+h1,
+h2,
+p,
+h3 {
+    margin: 0%;
+    padding: 0%;
+
+}
+
+
+
 * {
     font-family: "Comfortaa", sans-serif;
     text-decoration: none;
@@ -8,7 +21,7 @@
 
 #parte-de-cima-do-header {
     display: flex;
-    width: 1200px;
+    width: 1830px;
     justify-content: space-between;
     margin: auto;
     align-items: center;
@@ -48,11 +61,78 @@
 
 }
 
-#parter-de-cima-do-header ul li a#link-especifico {
+#parte-de-cima-do-header ul li a#link-especifico {
     background: #03a300;
     color: #ffff;
     padding: 9px 20px;
     border-radius: 10px;
+}
 
+.img {
+    max-width: 100%;
+
+
+}
+
+
+
+.container {
+    width: 1200px;
+    margin: auto;
+
+}
+
+h1,
+h3 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+h1 {
+    margin-top: 100px;
+}
+
+h3 {
+    margin-top: 15px;
+}
+
+
+h2,
+p {
+    font-size: 14px;
+    font-weight: bold;
+    max-width: 770px;
+    margin-top: 15px;
+}
+
+p {
+    width: 90%;
+    color: #666666;
+}
+
+#imoveis {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 30px;
+    text-align: center;
+
+}
+
+#imoveis>div {
+    max-width: 31.6%;
+}
+
+#imoveis img {
+    width: 100%;
+}
+
+#imoveis>div a {
+    background: #03a300;
+    display: block;
+    color: #ffff;
+    margin-top: 15px;
+    padding: 9px 15px;
+    border-radius: 10px;
 
 }
